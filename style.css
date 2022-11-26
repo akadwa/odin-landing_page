@@ -13,10 +13,10 @@ a {
     color: black;
 }
 
-img {
+/* img {
     height: auto;
     width: 100%;
-}
+} */
 
 /* Nav bar */
 nav {
@@ -30,6 +30,7 @@ nav {
     padding-right: 10%;
 }
 
+
 .right-links {
     display: flex;
     gap: 20px;
@@ -41,8 +42,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 10%;
+    padding: 10% 10%;
     gap: 5%;
+    background-color: peru;
 }
 
 .intro-text {
@@ -54,8 +56,6 @@ nav {
 
 .intro-text h2 {
     font-size: 48px;
-    /* text-decoration: underline;
-    text-decoration-thickness: 4px; */
 } 
 
 .intro-text p {
@@ -72,8 +72,70 @@ nav {
 
 .intro-image-container {
     display: flex;
-    align-items: flex-start;
-    max-width: 50%; 
+    max-width: 50%;
+    max-height: auto;
 }
 
 
+.founders {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10%;
+}
+
+.founders-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.founder-members {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 30px;
+}
+
+.founders-image-container {
+    display: flex;
+    width: 190px;
+    height: 150px;
+}
+
+.founders h4 {
+    padding: 10px 0px;
+}
+
+.founder-members p {
+    text-align: center;
+}
+
+.batman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.yoda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.superman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.iron-man {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
