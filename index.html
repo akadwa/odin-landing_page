@@ -5,30 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav-bar">
-        <div class="logo">
-            <h1>The Block Busters</h1>
-        </div>
-        <div class="right-links">
-            <p><a href="">Meet The Crew</a></p>
-            <p><a href="">Contact</a></p>
-            <p><a href="https://www.youtube.com/watch?v=1HkRYtjwUzw">Report A Crime</a></p>
-        </div>
-    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>The Block Busters</h1>
+            </div>
+            <div class="right-links">
+                <a href="">Meet The Crew</a>
+                <a href="">Contact</a>
+                <a href="https://www.youtube.com/watch?v=1HkRYtjwUzw">Report A Crime</a>
+            </div>
+        </nav>
 
-    <div class="intro">
-        <div class="text">
-            <h2>Fighting crime, since 1969</h2>
-            <p>Gathered from far and wide across the galaxy, it is our duty as superheroes to serve and protect our people.</p>
-            <p>Become apart of "The Block Busters Fan Group" and join us on our journey in combating evil.</p>
-            <button>Suit up!</button>
+        <div class="intro">
+            <div class="intro-text">
+                <h2>Fighting crime, since 1969</h2>
+                <p>Gathered from far and wide across the galaxy, it is our duty as superheroes to serve and protect our people.</p>
+                <p>Become apart of "The Block Busters Fan Group" and join us on our journey in combating evil.</p>
+                <button>Suit up!</button>
+            </div>
+            <div class="intro-image-container">
+                <img class="intro-image" src="./images/cover_image.jpg" alt="Image of superheros in action.">
+            </div>
         </div>
-        <div class="intro-image">
-            <img src="./images/cover_image.jpg" alt="Image of superheros in action.">
-        </div>
-    </div>
+    </header>
 
     <div class="founders">
         <h3>Our Founders:</h3>
@@ -57,19 +60,28 @@
     </div>
 
     <div class="quote">
-        <p>Together, we’re gonna punch these guys so hard, words describing the impact are gonna spontaneously materialize out of thin air.</p>
-        <p>- Batman</p>
+        <div class="quote-text">
+            <p>Together, we’re gonna punch these guys so hard, words describing the impact are gonna spontaneously materialize out of thin air.</p>
+            <p>- Batman</p>
+        </div>
     </div>
 
     <div class="subscribe">
-        <p>It's time! This is your superhero call to action!</p>
-        <p>Subscribe to our weekly newsletter to keep up to date with all of the action happening across galaxies!</p>
-        <button>Subscribe!</button>
+        <div>
+            <div class="subscribe-text">
+                <p>It's time! This is your superhero call to action!</p>
+                <p>Subscribe to our weekly newsletter to keep up to date with all of the action happening across galaxies!</p>
+            </div>
+            <div class="subscribe-button">
+                <button>Subscribe!</button>
+            </div>
+        </div>
     </div>
 
 
-    <div class="footer">
+    <footer>
         <p>Copyright &copy The Odin Project 2022</p>
-    </div>
+    </footer>
+        
 </body>
 </html>

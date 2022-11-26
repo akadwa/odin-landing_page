@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* background: url(./images/body_background_markus_spiske.jpg); */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+/* Nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcoral;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+    font-size: large;
+}
+
