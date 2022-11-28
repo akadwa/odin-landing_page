@@ -6,4 +6,6 @@ CSS uses:
 Page layouts are created through the use of flexbox in order to arrange the contents of the page into the desired layout. 
 Styles and markup are added to HTML text/textboxes.
 
-All images used belong to The Lego:registered: Group
+#### NOTE: All images used belong to The Lego:registered: Group
+
+To view the live page of this project, please visit: akadwa.github.io/odin-landing_page
